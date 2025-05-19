@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; text-align: center;">
+
+    <!-- Navbar -->
+    <nav style="display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; background: #333; color: white;">
+        <div style="font-size: 24px; font-weight: bold;">ClothStore</div>
+        <ul style="list-style: none; display: flex; gap: 20px; padding: 0; margin: 0;">
+            <li style="display: inline;"><a href="index.html" style="color: white; text-decoration: none;">Home</a></li>
+            <li style="display: inline;"><a href="about.html" style="color: white; text-decoration: none;">About</a></li>
+            <li style="display: inline;"><a href="products.html" style="color: white; text-decoration: none;">Products</a></li>
+            <li style="display: inline;"><a href="cart.html" style="color: white; text-decoration: none;">Cart</a></li>
+            <li style="display: inline;"><a href="contact.html" style="color: white; text-decoration: none;">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section style="padding: 40px 20px;">
+        <div style="max-width: 500px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+            <h1 style="margin-bottom: 10px; color: #333;">Contact Us</h1>
+            <p style="margin-bottom: 20px; color: #666;">If you have any questions, feel free to reach out to us!</p>
+            <form>
+                <div style="margin-bottom: 15px; text-align: left;">
+                    <label for="name" style="font-weight: bold; display: block; margin-bottom: 5px;">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required 
+                           style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+
+                <div style="margin-bottom: 15px; text-align: left;">
+                    <label for="email" style="font-weight: bold; display: block; margin-bottom: 5px;">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required 
+                           style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+
+                <div style="margin-bottom: 15px; text-align: left;">
+                    <label for="message" style="font-weight: bold; display: block; margin-bottom: 5px;">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message" required 
+                              style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                </div>
+
+                <button type="submit" style="width: 100%; padding: 10px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #333; color: white; padding: 10px 0; position: relative; bottom: 0; width: 100%;">
+        <p>&copy; 2025 ClothStore. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <div class="registration-container">
+        <div class="form-header">
+            <h2>Exam Registration Form</h2>
+            <p>Fill the Information Carefully.</p>
+        </div>
+        <form class="registration-form" action="insert.php" method="POST">
+            <div class="form-group">
+                <label for="username">Student Name</label>
+                <input type="text" id="username" name="username" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10" required>
+                <span id="mobile-error" style="color: red;"></span>
+            </div>
+        
+            <button type="submit" class="register-button">Register</button>
+        </form>
+        
+    </div>
+</body>
+</html>

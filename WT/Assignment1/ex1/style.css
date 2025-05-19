@@ -1,0 +1,86 @@
+
+
+.navbar{
+    padding: 40px;
+    background-color:darkslategrey;
+    align-items:center;
+    position: relative;
+    
+
+}
+nav a{
+    color: white;
+    padding: 3px;
+    margin-left: 100px;
+}
+
+.nav_item{
+    padding:  20px;
+    margin-inline: 20px;
+    color: white;
+    
+}
+
+h1{
+    text-align:center;
+    color:bisque;
+    background-color: brown;
+    padding: 15px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    padding: 1rem;
+}
+.mobile-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    width: 350px;
+    margin:auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0  5px 10px red;
+}
+
+.form input, .form textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form button {
+    background-color: rgb(250, 136, 61);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 99%;
+}
+
+.form button:hover {
+    background-color: rgb(126, 42, 9);
+}

@@ -1,0 +1,21 @@
+#sec1{
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    background-color: rgba(241, 107, 29, 0.055);
+    margin: 30px;
+    margin-left: 500px;
+    border: solid;
+}
+
+#sec2{
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    background-color: rgba(241, 107, 29, 0.055);
+    margin: 30px;
+    margin-left: 500px;
+    border: solid;
+    border-color: rgb(18, 41, 61);
+    box-shadow: 2 5 10 black;
+}
